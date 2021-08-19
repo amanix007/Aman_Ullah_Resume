@@ -14,8 +14,8 @@ module.exports = {
     // },
     /* For A4 size */
     screens: {
-      screen: {"raw": "screen"},
-      print: {"raw": "print"},
+      screen: { "raw": "screen" },
+      print: { "raw": "print" },
       xsm: "500px",
       sm: "640px",
       md: "811px",
@@ -44,9 +44,14 @@ module.exports = {
         "letter": "85.9375rem",
         "letter-col": "71.625rem",
         "letter-col-full": "77.9375rem",
-        "a4": "91.350883rem",
-        "a4-col": "77.038383rem",
-        "a4-col-full": "83.350883rem",
+        // "a4": "91.350883rem",
+        "a4": "85rem",
+        // "a4-col": "77.038383rem",
+        "a4-col": "71.038383rem",
+        // "a4-col-full": "83.350883rem",
+        "a4-col-full": "77.350883rem",
+
+
       },
       spacing: {
         "0.5": "2px", // 2px
